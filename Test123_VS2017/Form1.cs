@@ -16,5 +16,10 @@ namespace Test123_VS2017
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            pictureBox1.ImageLocation = "d:/db.png";
+        }
     }
 }
